@@ -7,7 +7,6 @@ module.exports = {
   labels: ["label1", "label2", "label3"],
   onboarding: true,
   logLevel: "debug",
-  gitfs: process.env.RENOVATE_GIT_FS,
   onboardingConfig: {
     extends: ["config:base", ":dependencyDashboardApproval"]
   },
