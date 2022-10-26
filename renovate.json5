@@ -1,4 +1,4 @@
-module.exports = {
+{
   platform: "gitlab",
   endpoint: "https://gitlab.example.com/api/v4/",
   token: "gitlab-token",
@@ -30,4 +30,4 @@ module.exports = {
       matchUpdateTypes: ["minor", "patch", "pin", "digest"]
     }
   ]
-};
+}
